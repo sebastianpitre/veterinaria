@@ -1,0 +1,66 @@
+
+body{
+    margin: 0;
+}
+
+.todo{
+
+    margin: 30px;
+}
+
+nav{
+    box-shadow: 1px 1px 3px black;
+    margin-top: 8px;
+    margin-left: 1%;
+    width: 98%;
+    height: 55px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    overflow:hidden; /* Eliminamos errores de float */
+    border-radius: 20px;
+    position: fixed;
+    z-index: 99;
+}
+
+.nombre{
+    margin-top: 8px;
+    margin-left: 40px;
+    float: left;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.links{
+    margin-top: 15px;
+    float: right;
+    margin-right: 45px;
+}
+
+.links a{ 
+    color: rgb(0, 0, 0);
+    margin-right: 20px;
+    text-decoration:none;
+}
+
+.textflotante{
+    font-size: 50px;
+    text-align: center;
+    color: aliceblue;
+    position: absolute;
+    top: 40vh;
+    left: 38%;
+    font-family: 'Fredoka One', cursive;
+    text-shadow: 1px 1px 2px black;
+
+}
+
+.sect1{
+    height: 300px;  
+}
+
+.carrucel{
+    background: linear-gradient(#00000042, #00000042),
+}
+
+.servicios{
+    padding: 70px;
+}
