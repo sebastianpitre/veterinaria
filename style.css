@@ -64,3 +64,75 @@ nav{
 .servicios{
     padding: 70px;
 }
+
+
+
+
+/*////////////////////////////  # formulario  ////////////////////////////*/
+
+#cita {
+background: linear-gradient(#00000042, #00000042), url("https://source.unsplash.com/AovflqCt9Ws") top center;
+background-position: center;
+background-size: cover;
+padding-top: 5rem;
+padding-left: 65%;
+padding-bottom: 5rem;
+}
+
+.form-register {
+display: inline-block;
+width: 400px;
+background: #ffffff;
+padding: 30px;
+border-radius: 4px;
+border: 1px solid #000000;
+color: #000000;
+}
+
+.form-register h4 {
+font-size: 22px;
+margin-bottom: 28px;
+}
+
+.control {
+width: 95%;
+background: #ffffff;
+padding: 10px;
+border-radius: 4px;
+margin-bottom: 16px;
+border: 1px solid #000000;
+font-size: 18px;
+}
+
+.form-register .boton {
+font-size: 17px;
+font-family: 'Fredoka One', cursive;
+}
+
+
+
+
+.footer{
+    text-align: center;
+  }
+
+
+  .footer .linkf{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:2rem 0;
+    gap:1rem;
+  }
+  
+  .footer .linkf a{
+    padding:.7rem 2rem;
+    color:#000000;
+    border:#ffffff4d;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight:bold;
+    -webkit-transition:all 500ms ease;
+    -o-transition:all 500ms ease;
+    transition:all 500ms ease;
+  }
